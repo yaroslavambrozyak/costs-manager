@@ -28,13 +28,13 @@ public class CostsManagerApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		userRepository.deleteAll();
-		User user = new User();
+		/*User user = new User();
 		user.setName("user");
 		user.setPassword(passwordEncoder.encode("12345"));
 		System.out.println(passwordEncoder.encode("secret"));
 		User save = userRepository.save(user);
 		Optional<User> userByUserName = userRepository.findUserByUserName(save.getName());
-		System.out.println(userByUserName.get().getName());
+		System.out.println(userByUserName.get().getName());*/
 	}
 
 
